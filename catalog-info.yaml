@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: banking-accounts-service
+  title: Banking Accounts Service
+  description: >
+    Accounts Service provides account management features for Banco Rocks, including account creation and customer data integration.
+  annotations:
+    github.com/project-slug: bancorocks/banking-accounts-service
+    backstage.io/source-location: url:https://github.com/bancorocks/banking-accounts-service
+spec:
+  type: service
+  lifecycle: production
+  owner: banking-team
+  system: banking-accounts-system
+  providesApis:
+    - banking-accounts-api
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: banking-accounts-api
+  description: Banking Accounts REST API.
+  tags:
+    - rest
+    - typescript
+    - openapi
+spec:
+  type: openapi
+  lifecycle: production
+  owner: banking-team
+  system: banking-accounts-system
+  definition:
+    $text: ./src/docs/openapi.yaml
