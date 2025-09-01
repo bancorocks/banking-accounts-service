@@ -1,6 +1,6 @@
-# Banking Accounts Service
+# Onboarding Service
 
-Accounts Service provides account management features for Banco Rocks, including account creation, balance inquiry, and customer data integration.
+Onboarding Service provides account management features for Banco Rocks, including account creation and customer data integration.
 
 ## Features
 

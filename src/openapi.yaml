@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
-  title: Banking Accounts API
-  description: Accounts Service provides account management features for Banco Rocks, including account creation, balance inquiry, and customer data integration.
+  title: Banking Accounts Onboarding API
+  description: Accounts Onboarding Service provides account management features for Banco Rocks, including account creation and customer data integration.
   version: 0.1.0
 
 servers:

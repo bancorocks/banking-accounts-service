@@ -1,6 +1,6 @@
 {
-  "name": "banking-accounts-service",
-  "description": "Accounts Service provides account management features for Banco Rocks, including account creation, balance inquiry, and customer data integration.",
+  "name": "banking-accounts-onboarding-service",
+  "description": "Onboarding Service provides account management features for Banco Rocks, including account creation and customer data integration.",
   "type": "module",
   "license": "MIT",
   "private": false,
